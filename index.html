@@ -356,7 +356,7 @@ body{background:var(--cream);color:var(--ink);font-family:"Inter",sans-serif;min
   <nav class="sidebar-nav">
     <div class="nav-item active" id="nav-words" onclick="showPage('words')">
       <span class="nav-icon">🃏</span> Kelime Flashcardları
-      <span style="margin-left:auto;font-size:.68rem;color:var(--muted)">669</span>
+      <span style="margin-left:auto;font-size:.68rem;color:var(--muted)">1482</span>
     </div>
     <div class="nav-item" id="nav-verbs" onclick="showPage('verbs')">
       <span class="nav-icon">🔄</span> Fiil Kartları
@@ -388,7 +388,7 @@ body{background:var(--cream);color:var(--ink);font-family:"Inter",sans-serif;min
     <span></span><span></span><span></span>
   </button>
   <div class="topbar-title">Italiano</div>
-  <div class="topbar-badge" id="topbar-badge">Kelimeler · 669</div>
+  <div class="topbar-badge" id="topbar-badge">Kelimeler · 1482</div>
 </div>
 
 <!-- ══ PAGE: WORDS ════════════════════════════════════════ -->
@@ -734,7 +734,7 @@ function showPage(p){
     document.getElementById('page-'+x).classList.toggle('active',x===p);
     document.getElementById('nav-'+x).classList.toggle('active',x===p);
   });
-  const labels={'words':'Kelimeler · 669','verbs':'Fiiller · 99','diario':'Diario','quiz':'Adaptif Quiz','grammar':'Grammer Engine','stories':'Story Reader'};
+  const labels={'words':'Kelimeler · 1482','verbs':'Fiiller · 99','diario':'Diario','quiz':'Adaptif Quiz','grammar':'Grammer Engine','stories':'Story Reader'};
   document.getElementById('topbar-badge').textContent=labels[p]||'';
   if(p==='diario')dInit();
   if(p==='grammar')gInit();
